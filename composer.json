@@ -1,0 +1,30 @@
+{
+    "name": "rocketslab/rabbitmq-actions",
+    "description": "A wrapper for vladimir-yuldashev RabbitMQ Queue for Laravel with Actions",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Goncalves",
+            "email": "jorge@rocketslab.com.br"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "vladimir-yuldashev/laravel-queue-rabbitmq": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RocketsLab\\RabbitMQActions\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RocketsLab\\RabbitMQActions\\RabbitMQActionsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

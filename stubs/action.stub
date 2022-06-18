@@ -1,0 +1,19 @@
+<?php
+
+namespace {{ namespace }};
+
+use RocketsLab\RabbitMQActions\Contracts\Action;
+
+class {{ class }} implements Action
+{
+    /**
+     * Handles the message data
+     *
+     * @param mixed $data
+     *
+     */
+    public function handle(mixed $data)
+    {
+        // TODO: Implement handle() method.
+    }
+}
